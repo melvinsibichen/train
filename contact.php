@@ -5,31 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signup</title>
+    <title>Document</title>
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background: #1b4781;" > 
   <div class="container-fluid">
   <img src="https://images.railyatri.in/ry-logo.png" height="25" alt="" >
-<a class="navbar-brand" href="index.html" style="color: antiquewhite;">  Home</a>
+<a class="navbar-brand" href="index.php" style="color: antiquewhite;">  Home</a>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
     <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="aboutus.html" style="color: antiquewhite;">About Us</a>
+      <a class="nav-link active" aria-current="page" href="aboutus.php" style="color: antiquewhite;">About Us</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#" style="font-size:larger; font-family:sans-serif;"></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="contact.html" style="color: antiquewhite;">Contact</a>
+      <a class="nav-link active" aria-current="page" href="contact.php" style="color: antiquewhite;">Contact</a>
     </li>
   </li>
   
   <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="Traintickets.html" style="color: antiquewhite;">Train Search</a>
+      <a class="nav-link active" aria-current="page" href="Traintickets.php" style="color: antiquewhite;">Train Search</a>
     </li>
     <li class="nav-item">
       <a class="nav-link active" aria-current="page" href="https://www.railyatri.in/train-ticket?utm_source=train_ticket_search_dweb_header_ttb" style="color: antiquewhite;">Traintickets</a>
@@ -38,75 +38,60 @@
   <form class="d-flex">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-              <a class="nav-link active" style="color: antiquewhite;" href="signup.html">SIGN UP</a>
+              <a class="nav-link active" style="color: antiquewhite;" href="signup.php">SIGN UP</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link active" style="color: antiquewhite;" href="signin.html">SIGN IN</a>
+              <a class="nav-link active" style="color: antiquewhite;" href="signin.php">SIGN IN</a>
           </li>
       </ul>
   </form>
 </div>
 </div>
-</nav> 
+</nav>
 
-<body style="background-color: rgb(165, 208, 243);"> 
-    <center><h1> SIGN UP</h1> </center>
+<body background=""> 
+    <center><h1>Contact Us</h1> </center>
   <div class="container">
       <div class="row">
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-10 col-xl-12 col-xxl-12">
-
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="https://images.railyatri.in/ry_images_prod/Homepage-Banner-Bus-1609320344.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://images.railyatri.in/ry_images_prod/Homepage-Banner-Bus-1609320344.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://images.railyatri.in/ry_images_prod/Food-2-1592811064.jpg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-              </div>
-        </div>
-
-      <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-12 col-xxl-12">
-    <table class="table table-borderless">
+            <div class="col col-6 col-sm-6 col-md-6 col-lg-6 col-xl-12 col-xxl-12">
+      <table class="table table-borderless" style="font-style: oblique;">
         
     <tr>
         <td>First Name</td>
         <td><input type="text" class="form-control"></td>
     </tr>
     <tr>
-        <td>Last Name</td>
+        <td>Mobile No</td>
         <td><input type="text" class="form-control"></td>
     </tr>
     <tr>
-        <td>Dob</td>
+        <td>Email</td>
         <td><input type="text" class="form-control"></td>
     </tr>
     <tr>
-        <td>Phone No</td>
+        <td>Subject</td>
         <td><input type="text" class="form-control"></td>
     </tr>
     <tr>
-        <td>Email Id</td>
+        <td>Message</td>
         <td><input type="text" class="form-control"></td>
     </tr>
     <tr>
-        <td>Password </td>
-        <td><input type="password" class="form-control"></td>
-    </tr>
-     <tr>
-            <td>Conform</td>
-            <td><input type="password" class="form-control"></td>
-    </tr>
+        <td>
+    <p>
+        >  For any refund related queries, please visit refunds.railyatri.in<br>
+
+        >  For any other queries, please write to us at care@railyatri.in or call us at 8010500300 (8AM - 9PM, 7 days a week)
+    </p></td>
+</tr>
     <tr>
-        <td><button class="btn btn-outline-success">Submit </button></td>
+        <td><button class="btn btn-primary">Submit </button></td>
     </tr>
     
 </table>
-      </div>
+</div>
+</div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
